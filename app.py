@@ -5,8 +5,7 @@ import pandas as pd
 from dash.dependencies import Input, Output
 import plotly.graph_objs as go
 
-df2 = pd.read_csv(
-    'Data_ DRC.1.csv')
+df2 = pd.read_csv('Data_ DRC.1.csv')
 
 df = pd.read_csv(
     'Data_ DRC Ebola Outbreak, North Kivu and Ituri - MOH-By-Health-Zone.csv')
